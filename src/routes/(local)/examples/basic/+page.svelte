@@ -1,4 +1,5 @@
 <script>
+    import '@picocss/pico'
     import Demo from '$site/components/Demo.svelte'
     import Main from './Main.svelte'
     export let data
