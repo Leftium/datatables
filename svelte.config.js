@@ -8,10 +8,7 @@ const config = {
     extensions: ['.svelte', ...mdsvexConfig.extensions],
     preprocess: [mdsvex(mdsvexConfig), preprocess()],
     kit: {
-        adapter: adapter({ out: 'build' }),
-        paths: {
-            base: '/'
-        }
+        adapter: adapter({ out: 'build' })
     },
     vitePlugin: {
         inspector: {
